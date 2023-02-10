@@ -1,0 +1,11 @@
+def addClusteringResult(data,clusters):
+    
+    l=list(range(6))
+    print(l)
+    c=[[1,5],[0,2,3,4]]
+    for i in range(0,2):
+        for j in range(len(c[i])):
+            k=c[i][j]
+            print(k)
+            l[k]=i
+    print(l)
